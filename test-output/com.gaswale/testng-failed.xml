@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [com.gaswale]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testutilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="gaswale login(failed)">
+    <classes>
+      <class name="testcases.Tc_001_Login">
+        <methods>
+          <include name="Order"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.Tc_001_Login -->
+    </classes>
+  </test> <!-- gaswale login(failed) -->
+</suite> <!-- Failed suite [com.gaswale] -->
